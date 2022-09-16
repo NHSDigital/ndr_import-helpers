@@ -1,8 +1,7 @@
 # NdrImport [![Build Status](https://github.com/NHSDigital/ndr_import/workflows/Test/badge.svg)](https://github.com/NHSDigital/ndr_import/actions?query=workflow%3Atest) [![Gem Version](https://badge.fury.io/rb/ndr_import.svg)](https://rubygems.org/gems/ndr_import) [![Documentation](https://img.shields.io/badge/ndr_import-docs-blue.svg)](https://www.rubydoc.info/gems/ndr_import)
 This is the NHS Digital (NHSD) National Disease Registers (NDR) Import ETL ruby gem, providing:
 
-1. file import handlers for *extracting* data from delimited files (csv, pipe, tab, thorn), JSON Lines, .xls(x) spreadsheets, .doc(x) word documents, PDF, PDF AcroForms, XML, 7-Zip and Zip files.
-2. table mappers for *transforming* tabular and non-tabular data into key value pairs grouped by a common "klass".
+1. file import handlers for *extracting* data from delimited files (csv, pipe, tab, thorn), .xls(x) spreadsheets, .doc(x) word documents, XML, 7-Zip and Zip files.
 
 ## Installation
 
@@ -25,26 +24,7 @@ Or install it yourself by cloning the project, then executing:
 Below is an example that extracts data from a PDF and transforms it into to a collection of records defined by their "klasses" and "fields":
 
 ```ruby
-require 'ndr_import/non_tabular/table'
-require 'ndr_import/file/registry'
-
-unzip_path = SafePath.new(...)
-source_file = SafePath.new(...).join(...)
-options = { 'unzip_path' => unzip_path }
-
-table = NdrImport::NonTabular::Table.new(...)
-
-# Use the Registry to enumerate over the files and their tables
-files = NdrImport::File::Registry.files(source_file, options)
-files.each do |filename|
-  tables = NdrImport::File::Registry.tables(filename, nil, options)
-  tables.each do |_tablename, table_content|
-    # Use the NonTabular::Table to tabulate the table_content
-    table.transform(table_content).each do |_klass, _fields, _index|
-      # Your code goes here
-    end
-  end
-end
+# TODO: New example to go here
 ```
 
 See `test/readme_test.rb` for a more complete working example.
