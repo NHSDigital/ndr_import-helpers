@@ -1,7 +1,5 @@
-# NdrImport [![Build Status](https://github.com/NHSDigital/ndr_import-helpers/workflows/Test/badge.svg)](https://github.com/NHSDigital/ndr_import-helpers/actions?query=workflow%3Atest) [![Gem Version](https://badge.fury.io/rb/ndr_import-helpers.svg)](https://rubygems.org/gems/ndr_import-helpers) [![Documentation](https://img.shields.io/badge/ndr_import-docs-blue.svg)](https://www.rubydoc.info/gems/ndr_import-helpers)
-This is the NHS Digital (NHSD) National Disease Registers (NDR) Import ETL ruby gem, providing:
-
-1. file import handlers for *extracting* data from delimited files (csv, pipe, tab, thorn), .xls(x) spreadsheets, .doc(x) word documents, XML, 7-Zip and Zip files.
+# NdrImport::Helpers [![Build Status](https://github.com/NHSDigital/ndr_import-helpers/workflows/Test/badge.svg)](https://github.com/NHSDigital/ndr_import-helpers/actions?query=workflow%3Atest) [![Gem Version](https://badge.fury.io/rb/ndr_import-helpers.svg)](https://rubygems.org/gems/ndr_import-helpers) [![Documentation](https://img.shields.io/badge/ndr_import-docs-blue.svg)](https://www.rubydoc.info/gems/ndr_import-helpers)
+This is the NHS Digital (NHSD) National Disease Registers (NDR) Import ETL Legacy File Helpers ruby gem, providing file import helpers for *extracting* data from delimited files (csv, pipe, tab, thorn), .xls spreadsheets, .doc word documents, XML, and Zip files.
 
 ## Installation
 
@@ -21,15 +19,13 @@ Or install it yourself by cloning the project, then executing:
 
 ## Usage
 
-Below is an example that extracts data from a PDF and transforms it into to a collection of records defined by their "klasses" and "fields":
+Below is an example that extracts data from a PDF:
 
 ```ruby
 # TODO: New example to go here
 ```
 
 See `test/readme_test.rb` for a more complete working example.
-
-More information on the workings of the mapper are available in the [wiki](https://github.com/NHSDigital/ndr_import-helpers/wiki).
 
 ## Development
 
