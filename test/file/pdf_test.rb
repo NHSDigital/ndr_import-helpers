@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'ndr_import/helpers/file/pdf'
+require 'ndr_import-helpers/file/pdf'
 
 # PDF file helper tests
 class PdfTest < ActiveSupport::TestCase

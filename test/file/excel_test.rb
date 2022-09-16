@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'ndr_import/helpers/file/excel'
+require 'ndr_import-helpers/file/excel'
 
 # Excel file helper tests
 class ExcelTest < ActiveSupport::TestCase

@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'ndr_import/helpers/file/zip'
+require 'ndr_import-helpers/file/zip'
 require 'zip'
 
 # Zip file helper tests

@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'ndr_import/helpers/file/delimited'
+require 'ndr_import-helpers/file/delimited'
 
 # Delimited file helper tests
 class DelimitedTest < ActiveSupport::TestCase

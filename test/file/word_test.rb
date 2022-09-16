@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'ndr_import/helpers/file/word'
+require 'ndr_import-helpers/file/word'
 
 # Word file helper tests
 class WordTest < ActiveSupport::TestCase

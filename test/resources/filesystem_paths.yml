@@ -20,7 +20,7 @@ test_files: &test_files
       - r
       - w
   permanent_test_files:
-    root: <%= NdrImport.root + '/test/resources' %>
+    root: <%= NdrImport::Helpers.root + '/test/resources' %>
     prms:
       - r
       - w

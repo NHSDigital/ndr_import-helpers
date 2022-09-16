@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'ndr_import/helpers/file/xml'
+require 'ndr_import-helpers/file/xml'
 require 'nokogiri'
 
 # XML file helper tests

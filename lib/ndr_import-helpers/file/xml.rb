@@ -1,4 +1,4 @@
-require 'ndr_import/xml/control_char_escaper'
+require 'ndr_import-helpers/xml/control_char_escaper'
 require 'ndr_support/safe_file'
 require 'ndr_support/utf8_encoding'
 

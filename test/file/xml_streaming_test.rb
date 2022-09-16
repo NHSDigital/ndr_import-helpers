@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'ndr_import/helpers/file/xml_streaming'
+require 'ndr_import-helpers/file/xml_streaming'
 require 'nokogiri'
 
 # XML streaming file helper tests

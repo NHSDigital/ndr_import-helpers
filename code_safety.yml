@@ -68,88 +68,76 @@ file safety:
     comments:
     reviewed_by: josh.pencheon
     safe_revision: d3d9a987befeecb122a448d8d06e66d74da13fb5
-  lib/ndr_import.rb:
+  lib/ndr_import-helpers.rb:
     comments:
     reviewed_by: josh.pencheon
     safe_revision: 24d6449fd0612552f132dfbf4cada2ae28d0469e
-  lib/ndr_import/acroform_reader.rb:
-    comments:
-    reviewed_by: josh.pencheon
-    safe_revision: 24d6449fd0612552f132dfbf4cada2ae28d0469e
-  lib/ndr_import/csv_library.rb:
-    comments:
-    reviewed_by: ollietulloch
-    safe_revision: 6b8668967dbd42d7893a0fa5f0aa1ec1c11227e1
-  lib/ndr_import/helpers/file/delimited.rb:
+  lib/ndr_import-helpers/file/delimited.rb:
     comments:
     reviewed_by: ollietulloch
     safe_revision: 4a5cc1d362c632fc1f9242c69982fbce33557e17
-  lib/ndr_import/helpers/file/excel.rb:
+  lib/ndr_import-helpers/file/excel.rb:
     comments:
     reviewed_by: joshpencheon
     safe_revision: 06fd16643d02957ce856728e4911143c8e0178dc
-  lib/ndr_import/helpers/file/pdf.rb:
+  lib/ndr_import-helpers/file/pdf.rb:
     comments:
     reviewed_by: timgentry
     safe_revision: 3757fece40192a335c2d7d9290f2e4e9eed43619
-  lib/ndr_import/helpers/file/word.rb:
+  lib/ndr_import-helpers/file/word.rb:
     comments:
     reviewed_by: timgentry
     safe_revision: 45da71ebd3acbc0fe53755bcd75483ba17cb6924
-  lib/ndr_import/helpers/file/xml.rb:
+  lib/ndr_import-helpers/file/xml.rb:
     comments:
     reviewed_by: josh.pencheon
     safe_revision: 9a6cc769abce5f9bfa5b4f8bd5cda52dfe18b12b
-  lib/ndr_import/helpers/file/xml_streaming.rb:
+  lib/ndr_import-helpers/file/xml_streaming.rb:
     comments: uses SafePath and Shellwords when accessing filesystem, or making system
       calls
     reviewed_by: josh.pencheon
     safe_revision: 55e502bb4445cb8b985e530e8eb26d92b574ded9
-  lib/ndr_import/helpers/file/zip.rb:
+  lib/ndr_import-helpers/file/zip.rb:
     comments:
     reviewed_by: timgentry
     safe_revision: 6c6f204fab2f4232d81cb76aa523c26b0c490ae7
-  lib/ndr_import/version.rb:
+  lib/ndr_import-helpers/version.rb:
     comments: another check?
     reviewed_by: ollietulloch
     safe_revision: da0aed5e8a8659c5f70254f6d76264f8e780d835
-  lib/ndr_import/xml/control_char_escaper.rb:
+  lib/ndr_import-helpers/xml/control_char_escaper.rb:
     comments:
     reviewed_by: josh.pencheon
     safe_revision: 9a6cc769abce5f9bfa5b4f8bd5cda52dfe18b12b
-  ndr_import.gemspec:
+  ndr_import-helpers.gemspec:
     comments:
     reviewed_by: ollietulloch
     safe_revision: 3b437f0ca271fa962121edecd4559017c2446a3a
-  test/csv_library_test.rb:
-    comments:
-    reviewed_by: ollietulloch
-    safe_revision: 6b8668967dbd42d7893a0fa5f0aa1ec1c11227e1
-  test/helpers/file/delimited_test.rb:
+  test/file/delimited_test.rb:
     comments:
     reviewed_by: josh.pencheon
     safe_revision: 93ccee82fc2165d1ca2d9b03d146ae03e769ea96
-  test/helpers/file/excel_test.rb:
+  test/file/excel_test.rb:
     comments:
     reviewed_by: joshpencheon
     safe_revision: 377c060bd1e012d6e162a4ab8923a3609aacdf57
-  test/helpers/file/pdf_test.rb:
+  test/file/pdf_test.rb:
     comments:
     reviewed_by: josh.pencheon
     safe_revision: cb24ed3ea8116730d07f74546cd6fed0738b171d
-  test/helpers/file/word_test.rb:
+  test/file/word_test.rb:
     comments:
     reviewed_by: timgentry
     safe_revision: 9abdd6ced1d0c90ce8dd88abee4eb6472c7ff0d6
-  test/helpers/file/xml_streaming_test.rb:
+  test/file/xml_streaming_test.rb:
     comments:
     reviewed_by: josh.pencheon
     safe_revision: ae75fb49baf028ac8ce08e4bedcd3625ff3ff0cd
-  test/helpers/file/xml_test.rb:
+  test/file/xml_test.rb:
     comments:
     reviewed_by: josh.pencheon
     safe_revision: 9a6cc769abce5f9bfa5b4f8bd5cda52dfe18b12b
-  test/helpers/file/zip_test.rb:
+  test/file/zip_test.rb:
     comments:
     reviewed_by: josh.pencheon
     safe_revision: 9abdd6ced1d0c90ce8dd88abee4eb6472c7ff0d6
